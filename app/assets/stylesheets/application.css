@@ -1,0 +1,115 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.background-home {
+
+  background: url(street.jpg);
+  background-size: cover;
+}
+
+.img1 {
+   width: 531px;
+   height: 378px;
+
+   background: url(ar.png);
+   border: 1px solid #000000;
+   box-sizing: border-box;
+ }
+
+.img2 {
+  width: 531px;
+  height: 378px;
+
+  background: url(br.png);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.img3 {
+  width: 531px;
+  height: 378px;
+
+  background: url(cr.png);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.img4 {
+  width: 531px;
+  height: 378px;
+
+  background: url(dr.png);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.margin-left {
+  margin-left: 10rem;
+}
+
+.margin-left-text {
+  margin-left: 11rem;
+}
+
+.margin-left-text-profile {
+  margin-left: 8rem;
+}
+
+.margin-right {
+  margin-right: 10rem;
+}
+
+.margin-right-text {
+  margin-left: 3rem;
+}
+
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aligned {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.aligned_children {
+  margin-top: 5rem;
+}
+
+.presentation_text {
+  margin-top: 1rem;
+  width: 14rem;
+}
+
+.large-margin-top {
+  margin-top: 5rem;
+}
+
+.margin-top {
+
+}
