@@ -3,6 +3,7 @@
     <div class="bg-dark p-4">
       <div class="aligned">
         <button type="button" class="btn btn-danger"><a href="users/sign_in" class="text-warning">Connexion</a></button>
+        <button type="button" class="btn btn-danger"><%= link_to 'Déconnexion', destroy_user_session_path, method: :delete, class: 'text-warning' %></a></button>
       </div>
     </div>
   </div>

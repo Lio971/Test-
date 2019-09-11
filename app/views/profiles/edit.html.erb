@@ -1,0 +1,14 @@
+hello
+
+<%= form_tag "/profiles", method: "post" do %>
+  <input type="text" name="pseudonym">
+  <input type="submit" value="changer mon pseudo">
+  <input type="text" name="age">
+  <input type="submit" value="ajouter mon age">
+  <input type="text" name="city">
+  <input type="submit" value="ajouter ma ville">
+  <input type="text" name="style">
+  <input type="submit" value="changer mon style">
+  <input type="text" name="discipline">
+  <input type="submit" value="changer ma discipline">
+<% end %>
